@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Storyboard Creator (Free HuggingFace)</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Storyboard Creator 🎬</h1>
+
+        <label>Number of Frames:</label>
+        <input type="number" id="frameCount" value="4" min="1" max="10">
+
+        <div id="promptInputs"></div>
+
+        <button onclick="startGeneration()">🎨 Generate Storyboard</button>
+        <button id="exportBtn" onclick="exportToPDF()" style="display:none;">📄 Export as PDF</button>
+
+        <div id="storyboardContainer"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
