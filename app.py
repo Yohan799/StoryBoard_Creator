@@ -3,7 +3,7 @@ import requests
 import base64
 
 app = Flask(__name__)
-  # Replace with your Hugging Face token
+HF_API_KEY = "Your-API-KEY-HERE" # Replace with your Hugging Face token
 
 def generate_image(prompt):
     url = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell"
