@@ -93,7 +93,7 @@ Then visit: [http://localhost:5000](http://localhost:5000)
 
 ## 📷 Preview
 
-![Storyboard Demo](https://via.placeholder.com/600x200?text=Your+Generated+Storyboard+Here)
+![Storyboard Demo](https://github.com/yohan799/StoryBoard_Creator/demo.png)
 
 ---
 
